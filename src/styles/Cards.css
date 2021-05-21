@@ -1,0 +1,96 @@
+
+.water {
+  background-color: rgb(12, 200, 200);
+}
+
+.fire {
+  background-color: orangered;
+}
+
+.grass {
+  background-color: rgb(25, 187, 95);
+}
+
+.poison {
+  background-color: rgb(179, 16, 219);
+}
+
+.flying {
+  background-color: rgb(124, 210, 221);
+}
+
+.bug {
+  background-color: rgb(84, 134, 9);
+}
+
+.normal {
+  background-color: rgba(107, 23, 23, 0.719);
+}
+
+.electric {
+  background-color: yellow;
+}
+
+.ground {
+  background-color: rgb(194, 115, 12);
+}
+
+.fairy {
+  background-color: palevioletred;
+}
+
+.fighting {
+  background-color: rgb(211, 87, 15);
+}
+
+.psychic {
+  background-color: rgb(185, 55, 77);
+}
+
+.rock {
+  background-color: rgb(136, 41, 17);
+}
+
+.steel {
+  background-color: gray;
+}
+
+.ice {
+  background-color: rgb(210, 240, 240);
+}
+
+.ghost {
+  background-color: rgb(41, 3, 41);
+}
+
+.dragon {
+  background-color: orange;
+}
+
+#type {
+  border: 1px solid black;
+  border-radius: 25px;
+  font-family: 'Anton', sans-serif;
+  margin-left: 5px;
+  padding: 4px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cardClass {
+  display: flex;
+  background-color: rgb(243, 236, 236);
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.testeCard {
+  margin: 50px 0px;
+}

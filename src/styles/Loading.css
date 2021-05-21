@@ -1,0 +1,17 @@
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+div.center {
+  height: 4rem;
+  width: 4rem;
+}
+
+.loading-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative
+}
